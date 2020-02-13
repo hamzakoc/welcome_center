@@ -49,17 +49,18 @@ function LandingPage() {
                 <div className="info">
                
                   <div className="description">
-                    <h4 className="info-title">Ne yapıyoruz ?</h4><br></br>
-                   <br></br>
                     <div className="">
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
+                        className="img-circle img-no-padding img-responsive"
                         src={require("assets/img/neyapiyoruz.png")}
                       />
                     </a>
                   </div><br></br>
+                   <h4 className="info-title">Ne yapıyoruz ?</h4>
                    <br></br>
+                   
                     <p className="description">Karşılama Merkezi, çalışanlarına ve gönüllülerine yardım etmek, 
                     toplumun her bir üyesinine, herhangi bir şekilde veya hiçbir şekilde yargılamayı veya 
                     ayrımcılıgı kabul etmeyen, hoş ve saygılı bir ortamda çalışan gönüllü bir kuruluştur.
@@ -76,6 +77,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
+                        className="img-circle img-no-padding img-responsive"
                         src={require("assets/img/education.jpg")}
                       />
                     </a>
@@ -98,6 +100,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
+                        className="img-circle img-no-padding img-responsive"
                         src={require("assets/img/entegrasyon.jpg")}
                       />
                     </a>
@@ -107,7 +110,7 @@ function LandingPage() {
                     <p>Hem entegrasyon hem de yerleşim açısından yeni yerleşenlere yardım ediyoruz.
                        Ailelerin ihtiyaçlarına maddi, duygusal ve fiziksel olarak yardım etmeyi teklif eden bir dizi destek sağlamak için burdayız.
                     </p>
-            
+                    <hr></hr>
                   </div>
                 </div>
               </Col>
@@ -121,7 +124,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className=" ">
                   <div className="">
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <a href="#" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/help.jpg")}
@@ -158,6 +161,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
+                        
                         src={require("assets/img/volunter.jpg")}
                       />
                     </a>

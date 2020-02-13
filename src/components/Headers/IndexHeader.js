@@ -48,16 +48,19 @@ function IndexHeader() {
             </Row>
             
             </Col>
-            <Col lg="2" md="1">
-              <div className="card-avatar">
+            <Col >
+            <Card>
+              <div className="">
                     <a href="#" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
+                        className="  img-no-padding img-responsive "
                         src={require("assets/img/logo.jpg")}
                       />
                     </a>
                 </div>
-              
+               
+                  </Card>
             </Col>
           </Row>
       </div>{" "}
