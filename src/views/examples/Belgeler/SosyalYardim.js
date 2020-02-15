@@ -37,12 +37,13 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+          <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
-                    <h2 className="title">DEVLET (WALFARE) YARDIMI BASVURUSU</h2>
+                    <h3 className="title font-weight-bold ">Devlet (WALFARE) Yardimi Basvurusu</h3>
                  <p>Sarı belge alan kişiler; maddi durumları iyi değilse, kısıtlı imkanı
                         olduklarını kanıtlayabilecek durumdalarsa kimlikleriyle birlikte vakit
                         geçirmeden Ontorio Works’e başvurmaları gerekir. Bu başvuru hem telefon

@@ -37,12 +37,13 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                     <div>
-                         <h3 className="title"> Toronto'da Mevcut İnternet Seçenekleri </h3>
+                         <h3 className="title font-weight-bold"> Toronto'da Mevcut İnternet Seçenekleri </h3>
                         <p className="description">Toronto'da, ISS'ler birkaç modda hızlı internet sunar
                              <ul>
                                 <li> Dijital Abone Hattı (DSL) - DSL, telefon hatlarını kullanır ve geleneksel çevirmeli 

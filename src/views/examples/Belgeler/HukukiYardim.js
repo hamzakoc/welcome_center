@@ -37,12 +37,13 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                     <div>
-                         <h2 className="title">Hukuki Yardım</h2>
+                         <h3 className="title font-weight-bold">Hukuki Yardım</h3>
                          
                          <p  className="description">Gelir seviyesi düşük bireyler için Ontario eyaletinin hukuksal yardım imkanları bulunmaktadır.</p>
                          <h3>Nasıl başvuru yapabirilirim ?</h3><br></br>

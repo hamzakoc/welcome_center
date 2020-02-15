@@ -37,13 +37,14 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
                     <div>
-                         <h1 className="title">Araba Sigortası ve Fiyatlar</h1>
+                         <h3 className="title font-weight-bold ">Araba Sigortası ve Fiyatlar</h3>
                          <p>Araba Sigortası yeni gelenler için en masraflı kalemlerden birisidir. 
                              Yüzlerce sigorta firması arasından hangisinin size ve bütçenize uygun 
                              olduğunu bulmak oldukça zor işlerden birisidir. Ödemeler genelde aylık taksitler halinde yapılır. 

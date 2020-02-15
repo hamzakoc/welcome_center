@@ -3,15 +3,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
   Row,
   Col
@@ -21,7 +12,7 @@ import {
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/BarinmaPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import IndexNavbar from "components/Navbars/IndexNavbar";
+import BarinmaNavbar from "components/Navbars/BarinmaNavbar";
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -45,23 +36,16 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-        <IndexNavbar />
-          
-          <div className="owner">
-          <br /><br />
-            <div className="name">
-              <h4 className="title"> Jane Faker <br />
-              </h4>
-              <h6 className="description">Music Producer</h6>
-            </div>
-          </div>
+          <hr></hr>
+        <BarinmaNavbar />
+        <hr></hr>
+        
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="6">
+            <Col className="ml-auto mr-auto " md="8">
+            <h3 className="title font-weight-bold">Barinma</h3>
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              Ülke içinde otellerin sundugu hizmetler, fiyatlar ve otellerin kalitesi degisiklik gösterir. Genellikle büyük sehirlerdeki oda fiyatlari daha pahalidir. Fakat, Kanada’da uygun fiyatlarla, konforlu ve temiz otel bulmak mümkündür. Otellerin büyük bir kismi kredi kartlarini kabul eder.
+               Otel rezarvasyonlarini kendi ülkenizden birebir olarak ya da bir seyahat acentasi yoluyla yaptirmaniz mümkündür.
               </p>
               <br />
             </Col>

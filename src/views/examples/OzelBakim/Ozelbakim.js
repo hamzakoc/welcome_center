@@ -20,15 +20,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
   Row,
   Col
@@ -36,8 +27,10 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/KultursanatPageHeader.js";
+import ProfilePageHeader from "components/Headers/OzelbakimPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import OzelbakimNavbar from "components/Navbars/OzelbakimNavbar";
+
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -61,23 +54,18 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
+        <OzelbakimNavbar />
+        <hr></hr>
           
-          <div className="owner">
-          <br /><br />
-            <div className="name">
-              <h4 className="title"> Jane Faker <br />
-              </h4>
-              <h6 className="description">Music Producer</h6>
-            </div>
-          </div>
+         
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="6">
+            <Col className="ml-auto mr-auto " md="8">
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              <h3 className="title font-weight-bold">   Özel Bakım</h3>
+
+              Özel Bakım demekle kastımız hayatını devam ettirmek için başkalarının yardımına ihtiyaç duyan bireylerin bakımıdır. Bu durumda bulunan bireyler genelde toplumda sağlık engeli olan veya yaşlılıktan dolayı sağlık sıkıntıları olan kişler 
+              olarak görülür. Maalesef tüm toplumların bu kişlere olan bakış açısı yeterince yardımcı olamadığından bu bireyleri toplumsal haytta görmek oldukça zordur. Kanda Karşılama Merkezi olarak Kanada’ya yeni gelen bireyler içerisinde bu şekilde özel bakıma ihtiyaç duyanlara faydalı olacağını düşündüğümüz bu bçlümü oluşturmayı bir gçrev addettik. Bu sorumlulukla bu bölümü ve alt başlıklarını oluşturmaya çalıştık. Bu bölümde çzel bakıma ihtiyaç duyan arladaşlarımıza rehber olabilecek bilgiler paylaşarak onların da yeni Kanada kltürü ve hayatına adapte olmalarına yardımcı olmayı hedeflemekteyiz. umarız burada paykaşılan ve paylaşılacak bilgiler herkes için faydalı olacaktır.
               </p>
               <br />
             </Col>

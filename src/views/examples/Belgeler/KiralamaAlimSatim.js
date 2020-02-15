@@ -37,13 +37,14 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
                     <div>
-                         <h2 className="title">Ev Kiralama veya Satın Alma</h2>
+                         <h3 className="title font-weight-bold">Ev Kiralama veya Satın Alma</h3>
                          <p>Ev kiralayan veya satın alan kişiler emlak danışmanına komisyon 
                              ödemezler bu komisyon ev sahibi/satıcı tarafından ödenir.Kiralanan ve 
                              satılan, konut ve iş yerleri veritabanlarına listelenmektedir.

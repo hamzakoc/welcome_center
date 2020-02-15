@@ -37,13 +37,14 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
                    
-                    <h3 className="title">TELEFON HATTI</h3>
+                    <h3 className="title font-weight-bold">Telefon Hatlari</h3>
                         <p className="description">Toronto/Kanada’ya gelindiğinde yapılması gereken ivedi işlemlerden birisi de Kanada telefon hattı almaktır. Zira
                             yapacağınız tüm başvurularda iletişim numarası olarak bu hattı vereceksiniz. ABD’den gelenler belli süre ile ABD hattını
                             Kanada’da kullanabilmektedir. Ancak yaklaşık 3 ay sonra ABD telefon şirketleri bu servislerini sona erdirmektedir. Bu

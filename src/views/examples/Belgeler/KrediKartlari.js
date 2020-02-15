@@ -37,12 +37,13 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
-                    <h3 className="title">BANKA İŞLEMLERİ</h3>
+                    <h3 className="title font-weight-bold">Banka Islemleri</h3>
                     <p className="description"> 
                         Kanada’ya geldikten sonra  Yardım ve hayati işlemlerin kolaylaşması için en kısa sürede 
                         hesap açtırmanız önemlidir. Genelde en çok etrcih edilen bankalar aşağıdaki gibidir. Ayrıca banka 

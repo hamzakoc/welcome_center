@@ -36,8 +36,9 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/IstihdamPageHeader.js";
+import ProfilePageHeader from "components/Headers/EgitimPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import EgitimNavbar from "components/Navbars/EgitimNavbar";
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -61,23 +62,17 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
+        <EgitimNavbar />
+        <hr></hr>
           
-          <div className="owner">
-          <br /><br />
-            <div className="name">
-              <h4 className="title"> Jane Faker <br />
-              </h4>
-              <h6 className="description">Music Producer</h6>
-            </div>
-          </div>
+
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="6">
+            <Col className="ml-auto mr-auto " md="8">
+            <h3 className="title font-weight-bold">Eğitim</h3>
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              Dünyanın en eğitimli ülkelerinden biri olan Kanada, günümüzde canlı kültürü, şaşırtıcı doğa manzaraları, dünya çapında saygın üniversiteleri, Toronto, Montreal, Vancouver gibi hoşgörülü öğrenci şehirleri, refah yaşam standartları, ekonomik zenginliği ve göçmenlere uygulanan ılımlı politikaları ile uluslararası
+               öğrenciler için Amerika ve İngiltere’den sonra dünyanın en çok tercih edilen yurtdışı eğitim duraklarından biridir.
               </p>
               <br />
             </Col>

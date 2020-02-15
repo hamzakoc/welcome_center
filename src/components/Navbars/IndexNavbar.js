@@ -5,99 +5,95 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
-  Collapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
   Nav,
-  Container
 } from "reactstrap";
 
 function IndexNavbar() {
  
 
   return (
-    <Navbar className="justify-content-start float-left p-2" >
+    <div className="align-item-center color-dark font-weight-bold"  light expand="lg" >
     
-          <Nav navbar>
-          <NavItem>
-              <NavLink to="/basvurusurecleri" tag={Link}>
+          <Nav >
+          <NavItem >
+              <NavLink to="/basvurusurecleri" tag={Link}  style={{color: 'black', fontWeight:"bold", fontSize:"5"}}>
                 <i className="" /> Basvuru Surecleri
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/hukukiyardim" tag={Link}>
+              <NavLink to="/hukukiyardim" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Hukuki Yardim
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/ulasim" tag={Link}>
+              <NavLink to="/ulasim" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Ulasim
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/telefonhatti" tag={Link}>
+              <NavLink to="/telefonhatti" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Telefon Hatlari
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/evinterneti" tag={Link}>
+              <NavLink to="/evinterneti" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Ev Interneti
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/kutuphanekarti" tag={Link}>
+              <NavLink to="/kutuphanekarti" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Kutuphane Karti
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/ehliyet" tag={Link}>
+              <NavLink to="/ehliyet" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Ehliyet
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/bankahesaplari" tag={Link}>
+              <NavLink to="/bankahesaplari" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Banka Hesaplari
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/kredikartlari" tag={Link}>
+              <NavLink to="/kredikartlari" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Kredi Kartlari
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/kiralamaalimsatim" tag={Link}>
+              <NavLink to="/kiralamaalimsatim" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Kiralama, Alim-Satim
               </NavLink>
             </NavItem>
             
             <NavItem>
-              <NavLink to="/sigortalar" tag={Link}>
+              <NavLink to="/sigortalar" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Sigortalar
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/sosyalyardim" tag={Link}>
+              <NavLink to="/sosyalyardim" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Sosyal Yardim
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/seyehatbelgeleri" tag={Link}>
+              <NavLink to="/seyehatbelgeleri" tag={Link} style={{color: 'black', fontWeight:"bold"}}>
                 <i className="" /> Seyehat Belgeleri
               </NavLink>
             </NavItem>
                                 
           </Nav>
-    </Navbar>
+    </div>
   );
 }
 

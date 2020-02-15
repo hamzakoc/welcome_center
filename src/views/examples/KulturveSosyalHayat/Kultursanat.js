@@ -20,15 +20,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
   Row,
   Col
@@ -36,8 +27,10 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/GidaalisverisPageHeader.js";
+import ProfilePageHeader from "components/Headers/KultursanatPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import KultursanatNavbar from "components/Navbars/KultursanatNavbar";
+
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -61,23 +54,19 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
+        <KultursanatNavbar />
+        <hr></hr>
           
-          <div className="owner">
-          <br /><br />
-            <div className="name">
-              <h4 className="title"> Jane Faker <br />
-              </h4>
-              <h6 className="description">Music Producer</h6>
-            </div>
-          </div>
+       
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="6">
+            <Col className="ml-auto mr-auto " md="8">
+            <h3 className="title font-weight-bold">Kultur ve Sanat</h3>
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              Dogal güzelikleri ve genis açik alanlari ile ünlü Kanada, modern artistik eserlerin merkezi olmasi ile de taninmaktadir.
+
+Kanada güzel sanatlarinin kökeni çesitli kaynaklara dayanmaktadir: Kanada'nin cografyasi, iklimi, etnokültürel çesitliligi ve tarihi. Günümüzde, edebiyatta, dansta, 
+sinemada ve diger artistik anlatimlarda Kanadalilar dünyanin en büyük kültürel faaliyetlerinde aranan uluslar arasindadir.
               </p>
               <br />
             </Col>

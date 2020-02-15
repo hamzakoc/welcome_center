@@ -37,13 +37,14 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
                     <div>
-                 <h1 className="title">Toronto'da Kütüphaneler</h1>
+                 <h3 className="title font-weight-bold">Toronto'da Kütüphaneler</h3>
                  Toronto Halk Kütüphanesi şehrinize yerleşmenize destek olmak için sizlere, 
                  tamamı ÜCRETSİZ, çok sayıda hizmet sunmaktadır.Ücretsiz bir kütüphane kartı edinerek ihtiyaçlarınızı karşılayabilirsiniz.
                  Kayıt olmak için isim ve adres bilgilerinizi içeren iki adet kimlik belgesini herhangi bir kütüphaneye götürerek

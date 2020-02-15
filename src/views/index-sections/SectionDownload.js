@@ -43,21 +43,17 @@ function SectionDownload() {
               >
                 <i className="fa fa-twitter" /> Twitter
               </Button>
-              <UncontrolledTooltip delay={0} target="tooltip3373767">
-                Tweet!
-              </UncontrolledTooltip>
+             
               <Button
                 className="linkedin-sharrre btn-round  ml-2"
-                color="google-bg"
+                color="instagram-bg"
                 href="#"
                 id="tooltip840791273"
                 onClick={e => e.preventDefault()}
               >
-                <i className="fa fa-google-plus" /> Google
+                <i className="fa fa-instagram" /> instagram
               </Button>
-              <UncontrolledTooltip delay={0} target="tooltip840791273">
-                Share!
-              </UncontrolledTooltip>
+             
               <Button
                 className="facebook-sharrre btn-round ml-2"
                 color="facebook-bg"

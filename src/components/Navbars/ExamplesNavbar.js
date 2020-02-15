@@ -103,6 +103,11 @@ function ExamplesNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
+              <NavLink to="/hakkimizda" tag={Link}>
+                <i className="" /> Hakkimizda
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink to="/belgeler" tag={Link}>
                 <i className="" /> Belgeler
               </NavLink>

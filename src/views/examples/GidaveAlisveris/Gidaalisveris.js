@@ -36,8 +36,10 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/EgitimPageHeader.js";
+import ProfilePageHeader from "components/Headers/GidaalisverisPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import GidaalisverisNavbar from "components/Navbars/GidaalisverisNavbar";
+
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -61,23 +63,18 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
+        <GidaalisverisNavbar />
+        <hr></hr>
           
-          <div className="owner">
-          <br /><br />
-            <div className="name">
-              <h4 className="title"> Jane Faker <br />
-              </h4>
-              <h6 className="description">Music Producer</h6>
-            </div>
-          </div>
+         
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="6">
+            <Col className="ml-auto mr-auto " md="8">
+            <h3 className="title font-weight-bold">Gida ve Alisveris</h3>
+
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              Kanada’da gıda tüketimi kolay hazırlanabilirlik, sağlıklı olması, lezzet ve fiyat kriterleri çerçevesinde şekillenmektedir. 
+              Tüketicilerin kişisel tercihleri çerçevesinde zaman zaman ürünlerde bir veya birkaç unsur alım kararında etkili olup, tüketiciler kendi yaşam tarzlarını en iyi ifade ettiğini düşündükleri ürünlere yönelmektedir.
               </p>
               <br />
             </Col>

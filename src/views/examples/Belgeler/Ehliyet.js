@@ -37,12 +37,13 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
-                    <h2 className="title">EHLİYET</h2>
+                    <h3 className="title font-weight-bold">Ehliyet</h3>
                         <p>Ontario bölgesinde araba sürmek için G ehliyetiniz olması gereklidir. Her eyalette farklı 
                             ehliyet tipleri vardır. Ontario’da ikamet ediyorsanız sırasıyla G1 G2 ve 
                             son olarak G ehliyetlerini almak zorundasınız. </p> <br></br>

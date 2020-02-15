@@ -37,13 +37,14 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
                     <div>
-                         <h1 className="title">Seyehat Belgesi (Travel Document)</h1>
+                         <h3 className="title font-weight-bold ">Seyehat Belgesi (Travel Document)</h3>
                          <p>Seyehat Belgesi, Kanada'da sınırları içerisinde olupda mahkeme sürecini tamamlamış koruma altındaki kişilere
                              seyehat hakkı tanıyan pasaporta benzer kimlik belgesidir </p> 
 

@@ -38,11 +38,12 @@ function ProfilePage() {
       <div className="section profile-content">
      
         <Container>
-          
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-            <Col className="ml-5 mr-auto " md="8" >
-                <h2 className="title">MAHKEME İŞLEMLERİ</h2>
+            <Col className="ml-auto mr-auto " md="8" >
+                <h3 className="title font-weight-bold">MAHKEME İŞLEMLERİ</h3>
              
 	                <h5 className="description">Mahkeme işlemlerine baslangıç üç farklı şekilde olmaktadır ;</h5>  
                     

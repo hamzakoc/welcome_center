@@ -37,13 +37,14 @@ function ProfilePage() {
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>
-
+        <hr></hr>
         <IndexNavbar />
+        <hr></hr>
         <Row>
-                    <Col className="ml-5 mr-auto " md="8">
+                    <Col className="ml-auto mr-auto " md="8">
                  
                     <div>
-                         <h2 className="title">Toronto'da Ulaşım</h2>
+                         <h3 className="title font-weight-bold">Toronto'da Ulaşım</h3>
                           <p  className="description">Büyük şehirde her yere yürüyerek ulaşmanız mümkün değildir fakat ulaşım ağı
                             oldukça gelişmiş olduğundan metro, otobüs , tramway gibi tüm toplu taşıma
                             alteratifleri ile taksi ve araba kiralama gibi seçenekleri de şehir içi ulaşımda

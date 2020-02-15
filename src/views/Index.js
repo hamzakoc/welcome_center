@@ -75,7 +75,7 @@ function Index() {
         {/* <SectionCarousel /> */}
         {/* <SectionNucleoIcons /> */}
         {/* <SectionDark /> */}
-        {/* <SectionLogin /> */}
+        <SectionLogin />
         {/* <SectionExamples /> */}
         <SectionDownload />
         <DemoFooter />
